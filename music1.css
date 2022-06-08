@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   font-family:'Ubuntu',sans-serif; 
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 69px;
+    background-color:aquamarine;
+}
+nav ul li{
+    padding:0  12px;
+}
+.brand img{
+    width: 84px;
+    height: 70px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family:'Roboto Slab',sans-serif ;
+    justify-content: right;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(https://media.istockphoto.com/photos/guitar-and-blank-grunge-background-picture-id473376034?b=1&k=20&m=473376034&s=170667a&w=0&h=hbtMpOm-F71bhONVBn2goz9e29JSvhHiTD4InfzJDCw=);
+    background-size:cover;
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressbar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.songitemcontainer{
+    margin-top: 64px;
+}
+
+
+.songItem img{
+     width: 43px;
+     margin:0 23px;
+     border-radius: 34px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: antiquewhite;
+    color:cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 12px 0;
+    border-radius: 34px;
+}
+.timestamp{
+    margin-right: 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    margin-top: 23px;
+    font-family:'Roboto Slab',sans-serif ;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
